@@ -1,21 +1,26 @@
-Command for connecting Local to remote
+Command for connecting Local to remote using Git (> --commands)
 
 Create New repository in remote
 Create Newfolder in Local, Initiate with
-
-git init
+> git init
 
 And update User Name, Mailid in your Git-SCM
+> git config --global user.name "username"
+> git config --global user.email "email@example.com"
 
-git config --global user.name "username"
-git config --global user.email "email@example.com"
+Next to add your remote repository to local, 
+> git remote add <URL>
 
 To Add files and Folder use this,
-
-git add .
+> git add .
 
 This will add the change in directory, once done proceed with commit
+> git commit -m <message for Commit>
 
-git commit -m <message for Commit>
+For remote repositoy clone to local
+> git clone <Remote Repository URL>
 
+Accessing github remote repository from local
+> git branch --set-upstream-to origin/my_branch
+  This command let you to add you local repo to remote re
 
