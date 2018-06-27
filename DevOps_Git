@@ -22,5 +22,5 @@ For remote repositoy clone to local
 
 Accessing github remote repository from local
 > git branch --set-upstream-to origin/my_branch
-  This command let you to add you local repo to remote re
+  This command let you to add your local repo to remote re
 
