@@ -4,6 +4,9 @@ Create New repository in remote
 Create Newfolder in Local, Initiate with
 > git init
 
+To see all the commands
+> git --help
+
 And update User Name, Mailid in your Git-SCM
 > git config --global user.name "username"
 > git config --global user.email "email@example.com"
@@ -11,8 +14,11 @@ And update User Name, Mailid in your Git-SCM
 Next to add your remote repository to local, 
 > git remote add <URL>
 
-To Add files and Folder use this,
+To Add files and Folder use this,(by using "." all file will be added)
 > git add .
+
+To check th stuts,
+> git status
 
 This will add the change in directory, once done proceed with commit
 > git commit -m <message for Commit>
@@ -22,5 +28,17 @@ For remote repositoy clone to local
 
 Accessing github remote repository from local
 > git branch --set-upstream-to origin/my_branch
-  This command let you to add your local repo to remote re
+  This command let you to add your local repo to remote repo
+  
+Creating new branch
+> git branch <branch-Name>
+
+Moving to NewBranch or Existing Branch
+> git checkout <branch-Name>
+
+Merging Branch to master
+> git merge <branch>
+
+rebase
+> git rebase <branch Name>
 
