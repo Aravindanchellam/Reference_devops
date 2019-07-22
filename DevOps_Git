@@ -24,14 +24,17 @@ This will add the change in directory, once done proceed with commit
 > git commit -m <message for Commit>
 
 For remote repositoy clone to local
-> git clone <Remote Repository URL>
+> git clone <HostName> <Remote Repository URL>
 
 Accessing github remote repository from local
 > git branch --set-upstream-to origin/my_branch
   This command let you to add your local repo to remote repo
   
+Git Checkout to remote Branch to local
+> git checkout -b <Local Branch Name> <Clone Remote Branch>
+  
 Creating new branch
-> git branch <branch-Name>
+> git branch -b <branch-Name>
 
 Moving to NewBranch or Existing Branch
 > git checkout <branch-Name>
